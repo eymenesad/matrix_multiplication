@@ -30,7 +30,7 @@ rnd_vals1 = np.random.rand(N, N)
 rnd_vals2 = np.random.rand(N, N)
 
 # WRITE YOUR CODE BELOW #
-
+print("a")
 # Matrix Multiplication Functions
 def simple_multiplication(matrix1, matrix2):
     N = len(matrix1)
