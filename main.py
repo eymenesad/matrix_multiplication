@@ -14,7 +14,7 @@ def make_cache() -> CacheSimulator:
     cs = CacheSimulator(l1, mem)
     return cs
 
-
+sorted_list = []
 parser = ArgumentParser()
 parser.add_argument('-a', '--algorithm', type=str, choices=['simple', 'recursive'])
 parser.add_argument('-N', '--N', type=int)
